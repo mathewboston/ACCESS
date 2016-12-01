@@ -1,0 +1,180 @@
+@charset "utf-8";
+html, body {
+    max-width: 100%;
+	max-height: 100%;
+	overflow-y:hidden;
+}
+#wrapper {
+	width: 100vw;
+	min-width: 931px;
+	padding-left: 25px;
+	padding-right: 25px;
+	height: 100vh;
+	min-height: 800px;
+}
+#logout {
+	margin-right: 0px;
+	margin-top: 8px;
+}
+#layout {
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#layout_content {
+	margin-top: 15px;
+	padding-left: 60px;
+	height: 100%;
+}
+
+#logout_content {
+	margin-top: 10px;
+	padding-left: 25px;
+}
+#username {
+		float: left;
+	margin-left: -120px;
+	padding-left: 0px;
+	padding-right: 0px;
+	left: 0px;
+	right: 0px;
+	width: auto;
+}
+#navigation {
+	border: thin solid #AEBEE6;
+	border-radius: 5px;
+	height: 85vh;
+}
+.nav-buttons {
+	right: auto;
+	left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+#content {
+	border: thin solid #AEBEE6;
+	border-radius: 5px;
+	margin-left: 15px;
+	height: 85vh;
+	padding-top: 10px;
+}
+#pagenav {
+	margin-left: 43%;
+	margin-bottom: -25px;
+
+}
+.sort {
+	text-align: center;
+	height: 0px;
+}
+.addbtn {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: -10px;
+}#search {
+	margin-bottom: 10px;
+}
+#sortBar {
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: thin solid #D8D8D8;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.rotate270 {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+.rotate90 {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.fundedbuttons {
+	margin-top: 10px;
+	margin-left: -110px;
+}
+#fundednobutton {
+	margin-left: -96px;
+	margin-top: 10px;
+}
+.Content {
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border: thin solid #72B4E3;
+	background-color: #72B4E3;
+	height: 30px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 6px;
+}
+.ContentTitle {
+	margin-top: 2px;
+}
+.info {
+	border: thin solid #F9F9F9;
+	border-radius: 7px;
+	margin-top: 10px;
+}
+
+.projectContainer {
+	width: 70vw;
+	background-color: #EAEEF1;
+	border: thin solid #C0CCEB;
+	border-radius: 8px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 30px;
+}
+.ProjectMemberSortBar {
+	border: thin solid #B3B3B3;
+	border-radius: 2px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #DFDFDF;
+}
+.sortHeader {
+	border: thin solid #B3B3B3;
+}
+.tablePadding {
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+.removeButton {
+	margin-left: 4.5vw;
+	margin-bottom: 20px;
+}
+.sortRows {
+	border: thin solid #B3B3B3;
+	padding-top: 14px;
+	border-collapse: collapse;
+}
+.scrollable {
+	height: 77vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.scrollableResources{
+	height: 63.1vh;
+	padding-right: 20px;
+	padding-left: 20px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.buttonBar {
+	margin-left: 50vw;
+	margin-top: 20px;
+
+}
+.infoContent {
+	padding-left: 6px;
+	padding-right: 6px;
+
+}
