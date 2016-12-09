@@ -10,7 +10,7 @@ public class Database {
     
     // Constructors
     public Database(){
-        this.table = new ArrayList<E>();
+        this.table = new ArrayList<Resource>();
     }
     
     public Database(ArrayList<E> resources){
@@ -22,8 +22,8 @@ public class Database {
         return this.table;
     }
     
-    public void setTable(ArrayList<E> resources){
-        this.table = new ArrayList(resources);
+    public void setTable(ArrayList<Resource> resources){
+        this.table = new ArrayList<Resource>(resources);
     }
     
     // Methods
