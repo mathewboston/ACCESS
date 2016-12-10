@@ -51,7 +51,8 @@ public class Project extends Resource {
 	public void setObjective(String objective) {
 		Objective = objective;
 	}
-		
+	
+	
 	public Project readProject(String projectName){
 		Project toRead = getResource("project", projectName);
 		return toRead;		
