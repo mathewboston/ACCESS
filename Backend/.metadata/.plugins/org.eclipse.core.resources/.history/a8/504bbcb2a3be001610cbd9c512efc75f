@@ -13,7 +13,9 @@ import java.util.ArrayList;
  */
 public class DataConnectionManager {
     
-    public DataConnectionManager(){}
+    public DataConnectionManager(){
+    
+    }
     
     public void delegateTask(ArrayList<E> request){
         ArrayList<E> method = request;

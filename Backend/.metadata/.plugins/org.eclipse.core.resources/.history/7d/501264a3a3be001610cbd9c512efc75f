@@ -17,6 +17,6 @@ public class DigitalMeasuresConnection {
         String password = "DM2016";
     }
     
-    public void connectToDigitalMeasures() {}
+    public void connectToDigitalMeasures() {
         
 }
