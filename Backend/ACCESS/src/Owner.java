@@ -1,13 +1,11 @@
 
-public class Owner extends Member{
+public class Owner{
 	
 	public Owner(){
 		super();
 	}
 	
 	//Transfer Ownership of a resource
-	//TODO: Do we pass the resource ID? 
-	public void transferOwnership(int newOwnerID){
-		
+	public void transferOwnership(int resourceID, int owner, int newOwnerID){
 	}
 }

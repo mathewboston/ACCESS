@@ -8,11 +8,15 @@ public class Resource {
 	private String endDate;
 	private String owner;
 	private int id;
+	private String resource; 
 	
+	public Resource(String resource){
+		this.resource = resource; 
+	}
 	
 	//Creates instance of resource to be managed
-	public String getResource(int memberID){
-		
+	public String getResource(){
+		return resource; 
 	}
 	
 	

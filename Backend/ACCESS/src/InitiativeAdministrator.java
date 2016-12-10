@@ -1,5 +1,5 @@
 
-public class InitiativeAdministrator extends Member {
+public class InitiativeAdministrator{
 	
 	public InitiativeAdministrator(){
 		super();
@@ -10,7 +10,7 @@ public class InitiativeAdministrator extends Member {
 		
 		//TODO: use this method from initiative
 		//TODO: This method returns a list<Activity>
-		getAssociateActivity(); 
+		//getAssociateActivity(); 
 	}
 
 }
